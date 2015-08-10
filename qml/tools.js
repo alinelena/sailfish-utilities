@@ -44,3 +44,4 @@ exports.stopAlien = make_system_action("stop_dalvik");
 exports.restartNetwork = make_system_action("restart_network");
 exports.restartLipstick = make_system_action("restart_lipstick");
 exports.restartDevice = make_system_action("restart_device");
+exports.toggleSensors = make_system_action("toggle_sensors");

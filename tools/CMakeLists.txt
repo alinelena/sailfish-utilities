@@ -15,5 +15,6 @@ install(PROGRAMS
       repair_rpm_db.sh
       restart_network.sh
       restart_lipstick.sh
+      toggle_sensors.sh
       DESTINATION share/sailfish-utilities
 )

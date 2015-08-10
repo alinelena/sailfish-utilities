@@ -79,11 +79,14 @@ std::map<std::string, action_type> actions = {
         }},
     { "restart_network", [](action_ctx const *) {
             return execute_own_utility("restart_network.sh");
-        }}
+        }},
+    { "toggle_sensors", [](action_ctx const *) {
+            return system("toggle_sensors.sh");
+        }},
 };
 
 std::set<std::string> root_actions = {
-    "repair_rpm_db", "restart_dalvik", "stop_dalvik", "restart_network"
+    "repair_rpm_db", "restart_dalvik", "stop_dalvik", "restart_network", "toggle_sensors"
 };
 
 class BecomeRoot
