@@ -7,6 +7,8 @@ ActionItem {
     //% "Toggle Sensors"
     actionName: qsTrId("sailfish-tools-me-toggle-sensors")
     deviceLockRequired: false
+    //% "Toggle Sensors, if stopped will start"
+    //% "and vice-versa"
     description: qsTrId("sailfish-utilities-me-toggle-sensors-desc")
 
     function action(on_reply, on_error) {

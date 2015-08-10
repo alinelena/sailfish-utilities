@@ -29,7 +29,7 @@ Column {
             var info = { name: name, path: "plugins/" + name + ".qml" }
             plugins.append(info)
         }
-        var names = [ "RestartKeyboard", "RestartNetwork"
+        var names = [ "RestartKeyboard", "RestartNetwork", "ToggleSensors"
                       , "RestartUI", "RestartDevice"
                       , "CleanBackup", "CleanPackageCache", "CleanTracker" ]
         for (var i = 0; i < names.length; ++i)
